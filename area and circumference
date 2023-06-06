@@ -1,0 +1,11 @@
+import java.io.*;
+import java.util.Scanner;
+class circle{
+        public static void main(String args[]){
+                Scanner s= new Scanner(System.in);
+                System.out.print("Enter radius : ");
+                int r=s.nextInt();
+                int area=0,cirucm=0;
+                System.out.println("Area : "+(3.14f*r*r)+","+"Cirucmference : "+(2*3.14f*r));
+        }
+}
