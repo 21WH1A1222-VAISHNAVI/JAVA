@@ -1,0 +1,36 @@
+import java.io.*;
+import java.util.Scanner;
+class literals{
+        public static void main(String args[]){
+                System.out.println("\"Integer literals\"");
+                int a=10;
+                int b=0456;
+                int c=0x10;
+                long l=10L;
+                System.out.println("\nDecimal : "+a+"\nOctal : "+b+"\nHexadecimal : "+c+"\nlong : "+l);
+                System.out.println("\n\"Floating point literals\"");
+                float p=123.456f;
+                double d=123.446;
+                double q=0777;
+                double w=0xface;
+                double e=1.2e3;
+                float ex=5.6e3f;
+                System.out.println("\nfloat : "+a+"\ndouble : "+d+"\nOctal double : "+q+"\nHexadecimal double : "+w+"\nDouble exponential : "+e+"\nFloat exponential : "+ex);
+                System.out.println("\n\"String literals\"");
+                String s="Hello! world.";
+                System.out.println("\nString : "+s);
+                System.out.println("\n\"Character literals\"");
+                char ch='a';
+                char cha=97;
+                char he=0xface;
+                char oc=0777;
+                char i=65535;
+                char ne='\n';
+                System.out.println("\nCharacter : "+ch+"\nUnicode value : "+cha+"\nHexadecimal : "+he+"\nOctal : "+oc+"\nUnicode value : "+i+"\nEscape characters : "+ne);
+                System.out.println("\n\"1.7 version Enhancements\"");
+                int bb=0b1011;
+                double dd=1_23_456.789;
+                float ff=10l;
+                System.out.println("\nBinary : "+bb+"\ndouble  : "+dd+"\nFloat : "+ff);
+        }
+}
