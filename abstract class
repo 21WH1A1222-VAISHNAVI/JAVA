@@ -1,0 +1,29 @@
+package javapackage;
+
+public abstract class Shape {
+	int a=10;
+	int b=20;
+	int r=2;
+	public abstract void m1();
+
+}
+class rectangles extends Shape{
+	public void m1() {
+		System.out.print("Area of rectangle : ");
+		System.out.println(a*b);
+	}
+}
+class circle extends Shape{
+	public void m1() {
+		System.out.print("Area of circle : ");
+		System.out.print(3.14*r*r);
+	}
+}
+class cal{ 
+	public static void main(String args[]) {
+		rectangles r =new rectangles();
+		circle c=new circle();
+		r.m1();
+		c.m1();
+	}
+}
